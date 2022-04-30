@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main .container .btn-box .btn {
+  padding: 0 !important;
+  width: 10%;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.main .container .card_desc {
+  height: 300px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.main .container .card_desc .images {
+  width: 25%;
+  height: 200px;
+  margin: auto 50px;
+}
+
+.main .container .card_desc .images .img {
+  width: 100%;
+  height: 150px;
+}
+
+.main .container .card_desc .write-box {
+  width: 75%;
+}
+
+.installment {
+  margin-bottom: 30%;
+}
+
+.installment .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.installment .container .card-box {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.installment .container .card-box .cards {
+  width: 30%;
+  position: relative;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.installment .container .card-box .cards img {
+  width: 100px;
+  position: absolute;
+  left: 15px;
+  bottom: 80%;
+}
+
+.installment .container .card-box .cards .buttons {
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  border-top: 1px solid gray;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.installment .container .card-box .cards .buttons :hover {
+  width: 25%;
+  height: 35px;
+  background-color: #f45369;
+  border-radius: 0px 0px 10px 0px;
+  transition: 1s;
+  color: white;
+}
+
+.installment .container .card-box .cards .buttons .bt1 {
+  width: 25%;
+  border-right: 1px solid silver;
+}
+
+.installment .container .card-box .cards .buttons .bt2 {
+  width: 75%;
+}
+
+.installment .container .card-box .cards .buttons .btns a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.installments {
+  margin-top: 67%;
+  height: 650px;
+}
+
+.installments .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.installments .container .card-box {
+  width: 100%;
+  height: 150px;
+}
+
+.installments .container .card-box .digCards {
+  width: 30%;
+  position: relative;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.installments .container .card-box .digCards img {
+  width: 100px;
+  position: absolute;
+  left: 15px;
+  bottom: 80%;
+}
+
+.installments .container .card-box .digCards .buttons {
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  border-top: 1px solid gray;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.installments .container .card-box .digCards .buttons :hover {
+  width: 25%;
+  height: 35px;
+  background-color: #f45369;
+  border-radius: 0px 0px 10px 0px;
+  transition: 1s;
+  color: white;
+}
+
+.installments .container .card-box .digCards .buttons .bt1 {
+  width: 25%;
+  border-right: 1px solid silver;
+}
+
+.installments .container .card-box .digCards .buttons .bt2 {
+  width: 75%;
+}
+
+.installments .container .card-box .digCards .buttons .btns a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.endl .container {
+  width: 60%;
+}
+
+.endl p {
+  font-size: 10px;
+}
+
+.footer .container {
+  width: 60%;
+}
+
+.footer .container .big_Box {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container .big_Box a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1500px) {
+  .main .container {
+    width: 80%;
+  }
+  .main .container .btn {
+    width: 10%;
+  }
+  .installment {
+    height: 300px;
+  }
+  .installment .container {
+    width: 80%;
+  }
+  .installment .container .card-box {
+    width: 100%;
+    display: flex;
+  }
+  .installment .container .card-box .cards {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main .container {
+    width: 80%;
+  }
+  .main .container .btn {
+    width: 10%;
+  }
+  .installment {
+    height: 400px;
+  }
+  .installment .container {
+    width: 80%;
+  }
+  .installment .container .card-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .installment .container .card-box .cards {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main .container {
+    width: 80%;
+  }
+  .main .container .btn-box .btn {
+    width: 19%;
+  }
+  .main .container .row .col-lg-4 {
+    width: 100%;
+  }
+  .main .container .row .col-lg-4 img {
+    width: 100%;
+  }
+  .main .container .row .col-lg-8 {
+    width: 100%;
+  }
+  .installment {
+    height: 1024px;
+  }
+  .installment .container {
+    width: 80%;
+  }
+  .installment .container .card-box {
+    width: 100%;
+  }
+  .installment .container .card-box .cards {
+    width: 90%;
+    margin-top: 20%;
+  }
+  .installments {
+    display: none;
+  }
+  .endl {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
